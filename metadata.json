@@ -1,0 +1,6 @@
+{
+  "name": "WAV Editor & MP3 Exporter Dashboard",
+  "description": "A Windows-styled specialized audio dashboard to upload WAV files, edit ID3 metadata (including custom album art), boost volume/gain, visualize waveforms, play back, and export in 320 kbps MP3.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom scrollbars for file listings and forms in immersive layout */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(26, 6, 26, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(236, 72, 153, 0.2);
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(143, 206, 94, 0.5); /* Glow moldavite */
+}
+
+/* Glowing text effects */
+.text-glow-moldavite {
+  color: #a3e635;
+  text-shadow: 0 0 14px rgba(163, 230, 53, 0.8), 0 0 25px rgba(163, 230, 53, 0.3);
+}
+
+.text-glow-magenta {
+  color: #f472b6;
+  text-shadow: 0 0 16px rgba(244, 114, 182, 0.7), 0 0 28px rgba(244, 114, 182, 0.3);
+}
+
+.text-glow-blood {
+  color: #f43f5e;
+  text-shadow: 0 0 16px rgba(244, 63, 94, 0.8), 0 0 28px rgba(244, 63, 94, 0.4);
+}
+
+.text-glow-yellow {
+  color: #f59e0b;
+  text-shadow: 0 0 14px rgba(245, 158, 11, 0.8), 0 0 25px rgba(245, 158, 11, 0.3);
+}
+
+/* Bright Cinema-Grade Borders */
+.border-glowing-wine {
+  border-color: rgba(225, 29, 72, 0.8);
+  box-shadow: 0 0 20px rgba(225, 29, 72, 0.4);
+}
+
+.border-glowing-yellow {
+  border-color: rgba(245, 158, 11, 0.8);
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.35);
+}
+
+.border-glowing-moldavite {
+  border-color: rgba(163, 230, 53, 0.8);
+  box-shadow: 0 0 20px rgba(163, 230, 53, 0.35);
+}
+
+.shadow-glow-moldavite {
+  box-shadow: 0 0 35px rgba(163, 230, 53, 0.4);
+}
+
+.shadow-glow-blood {
+  box-shadow: 0 0 35px rgba(244, 63, 116, 0.45);
+}
+
+.shadow-glow-yellow {
+  box-shadow: 0 0 35px rgba(245, 158, 11, 0.45);
+}
+
+/* Pulp Film Stripes Pattern */
+.bg-pulp-stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #f59e0b,
+    #f59e0b 10px,
+    #000 10px,
+    #000 20px
+  );
+}
+
+.bg-designer-mesh {
+  background-color: #06010a;
+  background-image: 
+    radial-gradient(at 15% 15%, rgba(244, 63, 94, 0.3) 0px, transparent 60%),
+    radial-gradient(at 85% 15%, rgba(168, 85, 247, 0.25) 0px, transparent 65%),
+    radial-gradient(at 50% 85%, rgba(245, 158, 11, 0.22) 0px, transparent 60%),
+    radial-gradient(at 90% 85%, rgba(163, 230, 53, 0.18) 0px, transparent 55%);
+}
+
